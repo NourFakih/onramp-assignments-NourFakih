@@ -1,0 +1,27 @@
+Assignment (deadline next Friday)
+
+
+Light/Dark Theme Switcher with Tailwind CSS
+Create a webpage that supports both light and dark themes using Tailwind CSS.
+
+
+Tailwind Configuration
+Configure Tailwind to use class-based dark mode (darkMode: 'class').
+Add at least 3 custom color tokens in tailwind.config.js.
+Use the custom colors throughout the page.
+
+
+Theme Toggle
+Add a visible button that switches between Light Mode and Dark Mode.
+The interface should clearly indicate which theme is currently active.
+
+
+Theme Functionality
+When the toggle is clicked, add/remove the dark class on the <html> element.
+Save the user's theme preference in localStorage.
+Restore the saved preference when the page is refreshed or reopened.
+
+
+Initial Theme Loading
+Add a script in the <head> that applies the saved theme before the page renders.
+This should prevent a flash of the wrong theme during page load.

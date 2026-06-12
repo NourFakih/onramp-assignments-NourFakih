@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  /* page */
+  --color-page: 0 0% 100%;                 /* white background */
+  --color-page-foreground: 278 85% 10%;    /* very dark purple text */
+  /* cards/sections */
+  --color-surface: 0 0% 100%;
+  --color-surface-foreground: 278 85% 10%;
+  /* switch/button */
+  --color-brand: 276 100% 92%;             /* very light purple button */
+  --color-brand-foreground: 278 85% 10%;   /* dark purple button text */
+  /* secondary areas */
+  --color-muted: 276 100% 97%;
+  --color-muted-foreground: 278 45% 30%;
+
+  --color-border: 276 45% 85%;
+}
+
+.dark {
+  color-scheme: dark;
+
+  /* page */
+  --color-page: 0 0% 0%;                   /* black background */
+  --color-page-foreground: 276 100% 92%;   /* very light purple text */
+  /* cards/sections */
+  --color-surface: 278 60% 8%;
+  --color-surface-foreground: 276 100% 92%;
+  /* switch/button */
+  --color-brand: 278 85% 10%;              /* very dark purple button */
+  --color-brand-foreground: 276 100% 92%;  /* light purple button text */
+  /* secondary areas */
+  --color-muted: 278 45% 14%;
+  --color-muted-foreground: 276 80% 85%;
+
+  --color-border: 278 40% 25%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
